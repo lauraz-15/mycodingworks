@@ -57,6 +57,7 @@ input {
   cursor: pointer;
   transition: 0.3s;
   color: white;
+  border: unset;
 }
 
 .subscribe-btn:hover {

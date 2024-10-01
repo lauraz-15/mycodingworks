@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 17px;
+  margin: 20px 10%;
 }
 
 .nav-menu {
@@ -16,6 +16,7 @@
 .navbar .logo {
   width: 120px;
   height: auto;
+  margin-bottom: 8px;
 }
 
 .nav-connect {
@@ -35,6 +36,14 @@
 .active {
   border-bottom: 3px solid #bb86fc;
   padding-bottom: 0.3rem;
+}
+
+ul.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  font-size: 16px;
 }
 
 li {
@@ -59,28 +68,30 @@ li {
 
 @media (max-width: 768px) {
   .navbar {
-    margin: 20px 50px;
+    margin: 20px 6%;
   }
   .nav-connect {
     display: none;
   }
   .burger-open {
     display: block;
-    position: fixed;
-    right: 30px;
+    position: absolute;
+    right: 23px;
+    cursor: pointer;
+    width: 30px;
   }
 
   .menu-close-btn {
-    width: 30px;
+    width: 20px;
     display: flex;
     margin-left: auto;
     padding: 1rem;
+    margin-bottom: 3rem;
   }
 
-  ul {
+  ul.nav-menu {
     position: fixed;
     flex-direction: column;
-    align-items: center;
     top: 0;
     gap: 30px;
     background-color: #1f0016;
@@ -89,12 +100,34 @@ li {
     z-index: 2;
     transition: right 0.5s;
     right: -350px;
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    gap: 5px;
+    font-size: 16px;
+    background: #32323c;
   }
 
   li {
     font-size: 20px;
-    padding-left: 100px;
+    padding-left: 1.5rem;
     flex-direction: row;
     gap: 20px;
+  }
+
+  .anchor-link {
+    font-size: 22px;
+    padding: unset;
+    padding-bottom: 0.5rem;
+    margin: 10px;
+    border-radius: unset;
+  }
+
+  li.active {
+    border-bottom: unset;
+  }
+
+  li.active .anchor-link {
+    border-bottom: 3px solid #03dac6;
   }
 }
