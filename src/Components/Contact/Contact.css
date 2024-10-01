@@ -1,0 +1,152 @@
+.title h1 {
+  color: #bb86fc;
+  padding: 0 30px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 10%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-basis: 40%;
+}
+
+.left h1 {
+  font-size: 40px;
+  color: #03dac6;
+}
+
+.container .left p {
+  max-width: 550px;
+  color: #d8d8d8;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.container .contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: #d8d8d8;
+  font-size: 22px;
+}
+
+.container .detail {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.container .detail img {
+  width: 25px;
+}
+
+.contact-form {
+  flex-basis: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  overflow: hidden !important;
+}
+
+.contact-form label {
+  color: #d8d8d8;
+}
+
+.contact-form input {
+  border: none;
+  width: 100%;
+  padding: 18px 0 18px 20px;
+  border-radius: 4px;
+  background: #32323c;
+  color: #a0a0a0;
+  font-family: Outfit;
+  font-size: 18px;
+}
+
+.contact-form textarea {
+  border: none;
+  width: 100%;
+  padding: 18px 0 18px 20px;
+  border-radius: 4px;
+  background: #32323c;
+  color: #a0a0a0;
+  font-family: Outfit;
+  font-size: 18px;
+}
+
+.sumbit-contact {
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 18px 40px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  background: linear-gradient(267deg, #03dac6 0.36%, #bb86fc 102.06%);
+}
+
+.sumbit-contact:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.bottom-right {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .title h1 {
+    padding: 0;
+    font-size: 40px;
+  }
+
+  .contact-section {
+    gap: 40px;
+    margin: 50px 6%;
+    align-items: start;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .contact-left {
+    margin-bottom: 30px;
+  }
+
+  .contact-right label {
+    font-size: 14px;
+  }
+
+  .container .detail img {
+    width: 20px;
+  }
+}
