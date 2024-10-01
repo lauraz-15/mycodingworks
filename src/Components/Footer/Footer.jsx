@@ -3,6 +3,7 @@ import footerLogo from "../../assets/logo_laura.png";
 import userIcon from "../../assets/user_icon.svg";
 
 function Footer() {
+  let currYear = new Date().getFullYear();
   return (
     <div className="footer-section">
       <div className="top">
@@ -22,7 +23,9 @@ function Footer() {
       </div>
       <hr />
       <div className="bottom">
-        <div className="bottom-left">@ 2024 www.mycodingworks.com. All rights reserved</div>
+        <div className="bottom-left">
+          @ {currYear} www.mycodingworks.com. <span>All rights reserved</span>
+        </div>
         <div className="bottom-right">
           <p>Term of services</p>
           <p>Privacy policy</p>

@@ -8,7 +8,7 @@
 .logo {
   width: 120px;
   height: auto;
-  margin: 1rem;
+  margin-left: -7px;
 }
 
 .top {
@@ -25,6 +25,7 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  margin-left: 1rem;
 }
 
 .email-input {
@@ -69,22 +70,67 @@ input {
   font-size: 16px;
 }
 
-@media (max-screen: 768px) {
-  .top .logo {
-    margin: 0;
-    margin-left: -6px;
-  }
+.bottom-right {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 10px;
+}
 
+.bottom-right p {
+  text-wrap: nowrap;
+}
+
+.bottom-left {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1040px) {
+  .footer-section {
+    margin: 50px 4%;
+  }
+}
+
+@media (max-width: 768px) {
   .footer-section {
     margin: 50px 6%;
   }
 
-  .footer-section .top {
+  .top {
     flex-direction: column;
     gap: 30px;
   }
 
+  .top .logo {
+    margin: 0;
+    margin-left: -7px;
+  }
+
   .right {
     gap: 5px;
+    margin-left: 0;
   }
+
+  .email-input {
+    padding: 12px 14px;
+    max-width: 200px;
+  }
+
+  .subscribe-btn {
+    font-size: 14px;
+    padding: 14px 20px;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 14px;
+  }
+
+  .bottom-right {
+    gap: 12px;
+  }
+}
+
+.bottom-left span {
+  display: block;
 }
