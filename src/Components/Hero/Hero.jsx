@@ -7,9 +7,9 @@ function Hero() {
     <div id="hero" className="hero">
       <img src={profileImg} alt="Laura" />
       <h1>
-        <span>I am Laura,</span> Frontend developer based in London
+        <span>I am Laura,</span> a passionate Frontend Developer.
       </h1>
-      <p>Frontend developer based in LondonFrontend developer based in LondonFrontend developer based in n London</p>
+      <p>Specializing in JavaScript, React, and APIs, I build seamless digital experiences with a focus on efficiency and creativity.</p>
       <div className="hero-action-btns">
         <AnchorLink className="anchor-link" href="#contact">
           <div className="hero-connect-btn">Connect with me</div>
