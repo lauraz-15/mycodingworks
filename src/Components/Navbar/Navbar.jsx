@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import logo from "../../assets/logo_laura.png";
+import logo from "../../assets/logo.png";
 import burgerOpen from "../../assets/menu_open.svg";
 import burgerClose from "../../assets/menu_close.svg";
 import { useState } from "react";
