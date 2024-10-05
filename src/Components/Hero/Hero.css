@@ -38,6 +38,10 @@
   margin-bottom: 50px;
 }
 
+.hero-action-btns a {
+  text-decoration: unset;
+}
+
 .hero-connect-btn {
   background: #bb86fc;
   padding: 25px 45px;
@@ -45,21 +49,27 @@
   cursor: pointer;
   color: #191520;
   background: linear-gradient(267deg, #03dac6 0.36%, #bb86fc 102.06%);
-}
-
-.hero-resume-btn {
-  padding: 20px 55px;
-  border-radius: 50px;
-  border: 2px solid #fff;
-  cursor: pointer;
+  transition: 0.5s;
 }
 
 .hero-connect-btn:hover {
-  border: 2px solid white;
+  transform: scale(1.05);
+}
+
+.hero-resume-btn {
+  padding: 25px 45px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #03dac6;
+  border: solid 2px #03dac6;
+  transition: 0.5s;
 }
 
 .hero-resume-btn:hover {
-  border-color: teal;
+  border-color: #bb86fc;
+  color: #bb86fc;
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {

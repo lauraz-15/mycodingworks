@@ -14,7 +14,9 @@ function Hero() {
         <AnchorLink className="anchor-link" href="#contact">
           <div className="hero-connect-btn">Connect with me</div>
         </AnchorLink>
-        <div className="hero-resume-btn">My resume</div>
+        <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <div className="hero-resume-btn">My resume</div>
+        </a>
       </div>
     </div>
   );
