@@ -10,7 +10,15 @@ function MyWork() {
       </div>
       <div className="work-container">
         {mywork_data.map((work, index) => {
-          return <img src={work.w_img} alt="my work" />;
+          return (
+            <a href={work.link || "#"} target="_blank" key={index} rel="noopener noreferrer">
+              <div className="porfolio-item">
+                <img src={work.img} alt="my work" />
+                <p className="work-title">{work.title}</p>
+                <p className="work-description">{work.description}</p>
+              </div>
+            </a>
+          );
         })}
       </div>
       <div className="show-more">

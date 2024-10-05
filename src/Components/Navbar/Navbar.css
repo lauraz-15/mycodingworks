@@ -59,6 +59,15 @@ li {
   color: white;
 }
 
+.anchor-link p {
+  transition: 0.2s;
+}
+
+.anchor-link p:hover {
+  color: #03dac6;
+  transform: scale(1.04);
+}
+
 .menu-close-btn {
   display: none;
 }
