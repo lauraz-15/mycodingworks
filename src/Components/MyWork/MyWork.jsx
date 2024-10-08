@@ -24,10 +24,12 @@ function MyWork() {
           );
         })}
       </div>
-      <div className="show-more">
-        <p>Show more</p>
-        <img src={arrow_icon} alt="show more arrow" />
-      </div>
+      <a className="see-more-work-btn" href="https://github.com/lauraz-15" target="_blank" rel="noreferrer">
+        <div className="show-more">
+          <p>Show more</p>
+          <img src={arrow_icon} alt="show more arrow" />
+        </div>
+      </a>
     </div>
   );
 }

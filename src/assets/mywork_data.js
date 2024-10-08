@@ -27,27 +27,6 @@ const mywork_data = [
     description: "Simple app built to practice the basics of React. The page dynamically shows which dishes are sold out and whether the restaurant is open or closed depending on the hour.",
     link: "https://lauraz-15.github.io/Trattoria-Restuarant/",
   },
-  {
-    no: 2,
-    title: "FITME",
-    img: project2_img,
-    description: "FITME is a social media platform that is built using React and the backend database and the API is built using Django Rest Framework",
-    link: "https://react-fitme.onrender.com/",
-  },
-  {
-    no: 2,
-    title: "FITME",
-    img: project2_img,
-    description: "FITME is a social media platform that is built using React and the backend database and the API is built using Django Rest Framework",
-    link: "https://react-fitme.onrender.com/",
-  },
-  {
-    no: 2,
-    title: "FITME",
-    img: project2_img,
-    description: "FITME is a social media platform that is built using React and the backend database and the API is built using Django Rest Framework",
-    link: "https://react-fitme.onrender.com/",
-  },
 ];
 
 export default mywork_data;

@@ -57,6 +57,11 @@
   transition: 0.3s;
 }
 
+.see-more-work-btn {
+  text-decoration: none;
+  color: white;
+}
+
 .show-more {
   display: flex;
   align-items: center;
