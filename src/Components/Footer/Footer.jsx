@@ -23,13 +23,9 @@ function Footer() {
       </div>
       <hr />
       <div className="bottom">
-        <div className="bottom-left">
-          @ {currYear} www.mycodingworks.com. <span>All rights reserved</span>
-        </div>
+        <div className="bottom-left">@ {currYear} www.mycodingworks.com.</div>
         <div className="bottom-right">
-          <p>Term of services</p>
-          <p>Privacy policy</p>
-          <p>Connect with me</p>
+          <span>All rights reserved</span>
         </div>
       </div>
     </div>
