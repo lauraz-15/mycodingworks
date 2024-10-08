@@ -13,7 +13,10 @@ function MyWork() {
           return (
             <a href={work.link || "#"} target="_blank" key={index} rel="noopener noreferrer">
               <div className="porfolio-item">
-                <img src={work.img} alt="my work" />
+                <div className="porfolio-img-cont">
+                  <img src={work.img} alt="my work" />
+                </div>
+
                 <p className="work-title">{work.title}</p>
                 <p className="work-description">{work.description}</p>
               </div>

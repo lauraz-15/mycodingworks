@@ -33,10 +33,23 @@
   color: white;
 }
 
-.work-container img {
-  width: 100%;
-  cursor: pointer;
+.porfolio-img-cont {
+  flex: 1 1 300px; /* Flex-grow, shrink, and basis. Adjust the 300px as per your design */
+  max-width: 300px; /* Adjust width according to preference */
+  height: 0;
+  padding-bottom: 75%; /* Maintain 4:3 aspect ratio (you can adjust this to 100% for square images) */
+  position: relative;
+  overflow: hidden;
   border-radius: 5%;
+}
+
+.work-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .work-container .porfolio-item:hover {
