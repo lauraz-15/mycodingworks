@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mycodingworks/static/css/main.d5a1257e.css",
-    "main.js": "/mycodingworks/static/js/main.eeaac18a.js",
-    "static/js/453.0321ff33.chunk.js": "/mycodingworks/static/js/453.0321ff33.chunk.js",
+    "main.js": "/mycodingworks/static/js/main.57bf2f27.js",
+    "static/js/453.69f3745b.chunk.js": "/mycodingworks/static/js/453.69f3745b.chunk.js",
     "static/media/juicy-recipes.png": "/mycodingworks/static/media/juicy-recipes.158a32bd8a5d2a7fdd31.png",
     "static/media/fitme.png": "/mycodingworks/static/media/fitme.4e335d80f091f14ca024.png",
     "static/media/trattoria-restaurant.png": "/mycodingworks/static/media/trattoria-restaurant.755249843663d8634970.png",
@@ -16,11 +16,11 @@
     "static/media/arrow_icon.svg": "/mycodingworks/static/media/arrow_icon.866a8d83b9723eed11e169d98d66ebc7.svg",
     "static/media/menu_open.svg": "/mycodingworks/static/media/menu_open.f6a63a18e3c68d807e50b1037f3e3555.svg",
     "main.d5a1257e.css.map": "/mycodingworks/static/css/main.d5a1257e.css.map",
-    "main.eeaac18a.js.map": "/mycodingworks/static/js/main.eeaac18a.js.map",
-    "453.0321ff33.chunk.js.map": "/mycodingworks/static/js/453.0321ff33.chunk.js.map"
+    "main.57bf2f27.js.map": "/mycodingworks/static/js/main.57bf2f27.js.map",
+    "453.69f3745b.chunk.js.map": "/mycodingworks/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5a1257e.css",
-    "static/js/main.eeaac18a.js"
+    "static/js/main.57bf2f27.js"
   ]
 }
