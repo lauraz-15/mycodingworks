@@ -1,6 +1,7 @@
 import project1_img from "../assets/juicy-recipes.png";
 import project2_img from "../assets/fitme.png";
 import project3_img from "../assets/trattoria-restaurant.png";
+import shopping_list_img from "../assets/shopping-list-project.png";
 
 const mywork_data = [
   {
@@ -16,6 +17,13 @@ const mywork_data = [
     img: project2_img,
     description: "Social media platform that is built using React and the backend database and the API is built using Django Rest Framework",
     link: "https://react-fitme.onrender.com/signup",
+  },
+  {
+    no: 4,
+    title: "Shopping List",
+    img: shopping_list_img,
+    description: "A dynamic shopping list app built with React, using useState for state management and real-time updates. ",
+    link: "https://lauraz-15.github.io/shopping-list/",
   },
   {
     no: 3,
