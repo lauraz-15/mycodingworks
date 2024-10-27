@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a8b57559.css",
-    "main.js": "/static/js/main.42b96c0b.js",
+    "main.js": "/static/js/main.603feb48.js",
     "static/js/453.0321ff33.chunk.js": "/static/js/453.0321ff33.chunk.js",
     "static/media/juicy-recipes.png": "/static/media/juicy-recipes.158a32bd8a5d2a7fdd31.png",
     "static/media/fitme.png": "/static/media/fitme.4e335d80f091f14ca024.png",
     "static/media/trattoria-restaurant.png": "/static/media/trattoria-restaurant.755249843663d8634970.png",
     "static/media/shopping-list-project.png": "/static/media/shopping-list-project.c21c85729404e519745a.png",
     "static/media/laur_photo.png": "/static/media/laur_photo.08773e6b23d64baf2c7e.png",
+    "static/media/eat-and-split.png": "/static/media/eat-and-split.41c12aaeb1410afbfb60.png",
     "static/media/logo.png": "/static/media/logo.83f9b63c09af06e20155.png",
     "static/media/user_icon.svg": "/static/media/user_icon.5c0ce6f918770ec5f3046cdf624dfee9.svg",
     "static/media/mail_icon.svg": "/static/media/mail_icon.9eae5516c8c1364a170e8b13ae4c18cf.svg",
@@ -17,11 +18,11 @@
     "static/media/arrow_icon.svg": "/static/media/arrow_icon.866a8d83b9723eed11e169d98d66ebc7.svg",
     "static/media/menu_open.svg": "/static/media/menu_open.f6a63a18e3c68d807e50b1037f3e3555.svg",
     "main.a8b57559.css.map": "/static/css/main.a8b57559.css.map",
-    "main.42b96c0b.js.map": "/static/js/main.42b96c0b.js.map",
+    "main.603feb48.js.map": "/static/js/main.603feb48.js.map",
     "453.0321ff33.chunk.js.map": "/static/js/453.0321ff33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8b57559.css",
-    "static/js/main.42b96c0b.js"
+    "static/js/main.603feb48.js"
   ]
 }
