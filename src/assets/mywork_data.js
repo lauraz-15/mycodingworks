@@ -38,7 +38,7 @@ const mywork_data = [
     title: "Eat & Split",
     img: eat_and_split,
     description: "Bill splitting calculator app built by using fundamentals of React. User can select a person to split the bill with and calculate balances for all friends.",
-    link: "https://lauraz-15.github.io/Trattoria-Restuarant/",
+    link: "https://lauraz-15.github.io/eat-and-split/",
   },
 ];
 
