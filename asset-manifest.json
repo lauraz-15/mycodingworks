@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a8b57559.css",
-    "main.js": "/static/js/main.603feb48.js",
+    "main.js": "/static/js/main.28d54542.js",
     "static/js/453.0321ff33.chunk.js": "/static/js/453.0321ff33.chunk.js",
     "static/media/juicy-recipes.png": "/static/media/juicy-recipes.158a32bd8a5d2a7fdd31.png",
     "static/media/fitme.png": "/static/media/fitme.4e335d80f091f14ca024.png",
@@ -18,11 +18,11 @@
     "static/media/arrow_icon.svg": "/static/media/arrow_icon.866a8d83b9723eed11e169d98d66ebc7.svg",
     "static/media/menu_open.svg": "/static/media/menu_open.f6a63a18e3c68d807e50b1037f3e3555.svg",
     "main.a8b57559.css.map": "/static/css/main.a8b57559.css.map",
-    "main.603feb48.js.map": "/static/js/main.603feb48.js.map",
+    "main.28d54542.js.map": "/static/js/main.28d54542.js.map",
     "453.0321ff33.chunk.js.map": "/static/js/453.0321ff33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8b57559.css",
-    "static/js/main.603feb48.js"
+    "static/js/main.28d54542.js"
   ]
 }
