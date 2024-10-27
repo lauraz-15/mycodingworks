@@ -2,6 +2,7 @@ import project1_img from "../assets/juicy-recipes.png";
 import project2_img from "../assets/fitme.png";
 import project3_img from "../assets/trattoria-restaurant.png";
 import shopping_list_img from "../assets/shopping-list-project.png";
+import eat_and_split from "../assets/eat-and-split.png";
 
 const mywork_data = [
   {
@@ -30,6 +31,13 @@ const mywork_data = [
     title: "Trattoria Restuarant",
     img: project3_img,
     description: "Simple app built to practice the basics of React. The page dynamically shows which dishes are sold out and whether the restaurant is open or closed depending on the hour.",
+    link: "https://lauraz-15.github.io/Trattoria-Restuarant/",
+  },
+  {
+    no: 5,
+    title: "Eat & Split",
+    img: eat_and_split,
+    description: "Bill splitting calculator app built by using fundamentals of React. User can select a person to split the bill with and calculate balances for all friends.",
     link: "https://lauraz-15.github.io/Trattoria-Restuarant/",
   },
 ];
