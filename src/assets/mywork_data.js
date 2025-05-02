@@ -3,14 +3,15 @@ import project2_img from "../assets/fitme.png";
 import project3_img from "../assets/trattoria-restaurant.png";
 import shopping_list_img from "../assets/shopping-list-project.png";
 import eat_and_split from "../assets/eat-and-split.png";
+import image_ai from "../assets/image-ai.png";
 
 const mywork_data = [
   {
     no: 1,
-    title: "Juicy Recipes",
-    img: project1_img,
-    description: "Recipe platform, built using Django Python-based framework, additionally Javascript is used to import and dissplay results from Edamam API search results.",
-    link: "https://juicy-recipes-z6hf.onrender.com/api/search/",
+    title: "Image AI",
+    img: image_ai,
+    description: "A Slack application built with Node.js that generates AI images directly within Slack conversations. The frontend, developed with Next.js and TypeScript, includes integrated Stripe payments for subscription management.",
+    link: "https://www.imageai-slack.com/",
   },
   {
     no: 2,
@@ -39,6 +40,13 @@ const mywork_data = [
     img: eat_and_split,
     description: "Bill splitting calculator app built by using fundamentals of React. User can select a person to split the bill with and calculate balances for all friends.",
     link: "https://lauraz-15.github.io/eat-and-split/",
+  },
+  {
+    no: 6,
+    title: "Juicy Recipes",
+    img: project1_img,
+    description: "Recipe platform, built using Django Python-based framework, additionally Javascript is used to import and dissplay results from Edamam API search results.",
+    link: "https://juicy-recipes-z6hf.onrender.com/api/search/",
   },
 ];
 
