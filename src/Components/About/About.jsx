@@ -16,6 +16,10 @@ function About() {
           </div>
           <div className="skills">
             <div className="skill">
+              <p>Javascript</p>
+              <hr style={{ width: "90%" }} />
+            </div>
+            <div className="skill">
               <p>HTML & CSS</p>
               <hr style={{ width: "80%" }} />
             </div>
@@ -27,10 +31,7 @@ function About() {
               <p>Next JS</p>
               <hr style={{ width: "60%" }} />
             </div>
-            <div className="skill">
-              <p>Javascript</p>
-              <hr style={{ width: "90%" }} />
-            </div>
+
             <div className="skill">
               <p>Node JS</p>
               <hr style={{ width: "50%" }} />
